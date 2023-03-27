@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/softcorp-test/static/css/main.c0096a24.css",
+    "main.js": "/softcorp-test/static/js/main.8e34182a.js",
+    "static/media/herobackground.png": "/softcorp-test/static/media/herobackground.7643ffafd81bd43f1e6c.png",
+    "static/media/orderbackground.png": "/softcorp-test/static/media/orderbackground.5e4a19dbe483898d41c8.png",
+    "static/media/orderFile.svg": "/softcorp-test/static/media/orderFile.550d16797fc2856fa95382af3bfa5201.svg",
+    "static/media/qiwiwallet.svg": "/softcorp-test/static/media/qiwiwallet.9c8b1acdb802f256ec03aa3f4a5f32a7.svg",
+    "static/media/footerLetter.svg": "/softcorp-test/static/media/footerLetter.c8a1fc9237a4f27ab748bdd3d982a596.svg",
+    "static/media/file.svg": "/softcorp-test/static/media/file.e9d3ba9aa5c5632ade8dfb159bb52db6.svg",
+    "static/media/webmoney.svg": "/softcorp-test/static/media/webmoney.f120a2ea4298d1543eacf9a3641f160b.svg",
+    "static/media/vkontakte.svg": "/softcorp-test/static/media/vkontakte.e7bc3bf13e305d827067f5decf825534.svg",
+    "static/media/percent.svg": "/softcorp-test/static/media/percent.2ed983fb0f100789ec2d703bf04ebd10.svg",
+    "static/media/letter.svg": "/softcorp-test/static/media/letter.33efae116303fe0ae3841f9f246d77f0.svg",
+    "static/media/banknote.svg": "/softcorp-test/static/media/banknote.b373f17188077d7e80441f850610de5e.svg",
+    "static/media/yandexmoney.svg": "/softcorp-test/static/media/yandexmoney.9446524499f0f753b418718cac498534.svg",
+    "index.html": "/softcorp-test/index.html",
+    "static/media/loupe.svg": "/softcorp-test/static/media/loupe.dceca6b590cba6f5d637dee3b0f1109b.svg",
+    "static/media/vector.svg": "/softcorp-test/static/media/vector.8a7b3e9284ac00ab7106887ca238283b.svg",
+    "main.c0096a24.css.map": "/softcorp-test/static/css/main.c0096a24.css.map",
+    "main.8e34182a.js.map": "/softcorp-test/static/js/main.8e34182a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0096a24.css",
+    "static/js/main.8e34182a.js"
+  ]
+}
