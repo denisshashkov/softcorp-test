@@ -1,0 +1,35 @@
+input[type='range'] {
+  -webkit-appearance: none;
+  background: rgba(255, 255, 255, 0.7);
+  height: 6px;
+  width: 100%;
+  @include borderRadius;
+  &:hover {
+    cursor: pointer;
+  }
+}
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 24px;
+  height: 24px;
+  background: $blue;
+  border: 3px solid $circleBorderColor;
+  cursor: pointer;
+  @include circle;
+}
+input[type='range']::-moz-range-thumb {
+  width: 24px;
+  height: 24px;
+  background: #42a9ed;
+  border: 3px solid $circleBorderColor;
+  cursor: pointer;
+  @include circle;
+}
+input[type='range']::-ms-thumb {
+  width: 24px;
+  height: 24px;
+  background: #42a9ed;
+  border: 3px solid $circleBorderColor;
+  cursor: pointer;
+  @include circle;
+}

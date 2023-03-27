@@ -1,0 +1,48 @@
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(16, 16, 29, 0.9);
+  @include tablet {
+    height: 80px;
+  }
+  &__title {
+    font-family: 'Raleway';
+    font-weight: 800;
+    @include adaptive-fontSize(28, 22);
+    text-transform: uppercase;
+    color: $white;
+    span {
+      color: $blue;
+    }
+  }
+  &__list {
+    display: flex;
+    gap: 66px;
+    @include desktop {
+      gap: 20px;
+    }
+    @include tablet {
+      display: none;
+    }
+  }
+  &__link {
+    font-size: 13px;
+    @include adaptive-fontSize(13, 11);
+    color: $white;
+    text-transform: uppercase;
+  }
+  &__link:hover {
+    color: $activeBlue;
+    @include transition;
+  }
+  &__link_active {
+    color: $activeBlue;
+  }
+}

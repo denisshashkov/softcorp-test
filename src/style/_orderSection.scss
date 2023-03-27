@@ -1,0 +1,41 @@
+.order {
+  width: 100%;
+  min-height: 920px;
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+  padding-bottom: 70px;
+  background-color: #272733;
+  background-image: url('../assets/img/orderbackground.png');
+  @include backgroundPosition;
+  &__content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    gap: 80px;
+    flex-direction: column;
+    word-break: break-all;
+  }
+  &__title {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    h1 {
+      font-family: sans-serif;
+      @include adaptive-fontSize(36, 22);
+      text-transform: uppercase;
+      color: $white;
+      word-break: break-word;
+      span {
+        color: $primaryColor;
+      }
+    }
+    p {
+      @include adaptive-fontSize(18, 14);
+      color: #bbbbbb;
+      word-break: break-word;
+    }
+  }
+}

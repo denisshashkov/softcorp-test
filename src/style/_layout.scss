@@ -1,0 +1,7 @@
+.container {
+  margin: 0 auto;
+  //max-width: 1920px;
+  @include adaptive-padding(374, 20);
+  padding-top: 0;
+  padding-bottom: 0;
+}

@@ -1,0 +1,29 @@
+.btn {
+  padding: 15px 10px;
+  @include borderRadius;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  &:hover {
+    cursor: pointer;
+    @include transition;
+  }
+}
+
+.primary {
+  border: 1px solid $white;
+  background-color: $primaryColor;
+  color: $white;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.light {
+  border: 1px solid $lightgrey;
+  background-color: $white;
+  &:hover {
+    background-color: $grey;
+    color: $white;
+  }
+}

@@ -1,0 +1,75 @@
+.order-scheme {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__item {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex-basis: 20%;
+    flex-grow: 1;
+    text-align: center;
+    padding: 0px 5px;
+    &:after {
+      content: '.....';
+      @include adaptive-width(110, 10);
+      display: inline-block;
+      letter-spacing: 12px;
+      @include adaptive-fontSize(40, 12);
+      font-weight: 600;
+      color: #c4c4c4;
+      position: absolute;
+      right: -24%;
+      top: 10%;
+      @include desktop {
+        content: '....';
+        letter-spacing: 10px;
+      }
+      @include laptop {
+        content: '...';
+        top: 8%;
+      }
+      @include tablet {
+        content: '..';
+        right: -21%;
+        top: 7%;
+      }
+      @include phone {
+        content: '.';
+        right: -15%;
+        top: 6%;
+      }
+    }
+  }
+  &__circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include adaptive-width(100, 30);
+    @include adaptive-height(100, 30);
+    background-color: $primaryColor;
+    border: 5px solid $circleBorderColor;
+    @include phone {
+      border-width: 2px;
+    }
+    @include circle;
+    & svg {
+      @include adaptive-width(55, 15);
+      @include adaptive-height(55, 15);
+    }
+  }
+  &__description {
+    font-family: 'Lato';
+    color: $white;
+    @include adaptive-fontSize(16, 10);
+    font-weight: 400;
+    word-break: break-word;
+  }
+}
+
+.order-scheme__item:last-child::after {
+  display: none;
+}
